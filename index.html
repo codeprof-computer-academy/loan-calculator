@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loan App</title>
+    <link rel="shortcut icon" href="logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
+</head>
+<body>
+    
+    <header>
+          <img src="logo.png" width="40" class="logo">
+          <nav>
+              <a href=""> <img src="home.png" alt="" width="18"><small>Home</small> </a>
+              <a href=""> <img src="about.png" alt="" width="18"> <small>About app</small></a>
+              <a href=""><img src="settings.png" alt="" width="18"> <small>Settings</small></a>
+              <a href=""><img src="contact.png" alt="" width="18"> <small>Contact us</small></a>
+          </nav>
+          <button class="menu-btn"></button>
+    </header>
+
+    <main>
+                <form>
+                        <span class="rate"> rate: 20%</span>
+
+                        <div>
+                                <label>Borrowed Amount</label>
+                                <input type="text" class="borrowed-amount">
+                        </div>
+
+                        <div>
+                            <label>Payment Duration</label>
+                            <input type="text" class="duration">
+                        </div>
+
+                        <button>Calculate</button>
+                </form>
+
+                <section class="result">
+                             <img src="close.png" alt="" class="close-result">
+                             <article>
+                                        <span>Interest:</span>
+                                        <h1 class="interest">₦0.0</h1>
+
+                                        <span>Total Payment:</span>
+                                        <h1 class="amount">₦0.0</h1>
+                                     
+                             </article>
+                </section>
+    </main>
+
+    <footer>
+        <p>&copy; Copyright <span class="year">coming soon</span>. All rights reserved. Powered by Codeprof Academy.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
